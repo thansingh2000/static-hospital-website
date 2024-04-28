@@ -1,0 +1,88 @@
+
+@media screen and (max-width:640px){
+    header {
+        display:none;
+    }
+    .box4,.depBox,.boxHelth .card{
+        height:auto;
+    }
+    .hoverBox {
+        height: 490px; 
+        padding: 200px 10px 0px 10px;
+        font-size: 18px;       
+    }
+    .f-new{
+        font-size:18px;
+    }
+    .boardC {
+        padding:10px;
+    }
+    .bordBox{
+        margin:40px 0px!important;
+    }
+    .main-contact .text-end{
+        text-align: center!important;
+    }
+    .admission-box{display: none;}
+    .Bigdrop{left: 0px !important;width: 341px!important;}
+    .w-icon img{
+        width:15%;
+    }
+
+}
+@media screen and (max-width:768px){
+    header {
+        font-size:12px;
+        display:none;
+    }
+    iframe{
+        width:100%!important;
+    }
+    .mainBox .d-flex,.main-appointment .d-flex{
+        display: block!important;
+    }
+   .box1,.photogallery{
+       height:auto;
+   }
+    .boxForm,.box3{
+        width: 100% !important;
+        height:auto;
+    }
+    .col-md-6{
+        width: 100% !important;
+    }
+   .box4{
+       height:390px;
+   }
+   .depBox {
+       height:640px;
+   }
+   .hoverBox{
+    height: 337px;
+    padding: 94px 10px 0px 10px;   
+    font-size: 14px;
+   }
+   .boxHelth .card{
+       height:724px;
+   }
+   .f-new{
+       font-size:12px;
+   }
+   .drop1{right:0px;}
+   .Bigdrop{
+       
+       left: 0px!important;
+       padding: 10px;
+       background-color: white!important;
+       z-index: 99;
+   }
+   .w-icon img{
+    width:15%;
+}
+}
+@media screen and (max-width:1024){
+    .box4{
+        height:410px;
+    }
+    
+}

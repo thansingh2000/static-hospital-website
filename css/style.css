@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@500&family=Work+Sans:wght@300&display=swap');
+.hfont{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.pdf>iframe{
+	    width: 100%;
+    height: 500px;
+}
+header{
+    box-shadow: inset 0px 0px 21px -15px;
+}
+.no{
+    border-right: 1px dotted gray;
+    border-left: 1px dotted gray;
+    padding: 0px 18px;
+}
+.primary-color{
+    color:#4ab242;
+}
+.primary-bg-color{
+   background-color:#4ab242;
+}
+.navbar-brand img{
+    width:70%!important;
+}
+.navbar-expand-xl .navbar-nav .nav-link{
+    padding-right: 6px!important;
+    padding-left: 8px!important;
+}
+.navbar-nav a:hover{
+   background-color:#4ab242;
+  color: #fff !important;
+}
+video{width:100%;}
+nav{
+    box-shadow: 0px 6px 10px -10px;
+    z-index: 99;
+}
+.navbar-toggler:focus { 
+   box-shadow: 0 0 0 0.25rem #4ab242;
+}
+.box1{
+    box-shadow: 0px 10px 9px 0px #80808047;
+    height:250px;
+    padding: 20px 15px!important;
+    border-bottom: 4px solid #4ab242;
+    border-radius: 10px;
+}
+.newsBox img{
+    margin:5px 0px;
+}
+.box2 img,.facImg img,.box7 img,.img-box img,.imgBox img,.videobox iframe,.brochurebox img,.newsBox img,.boardimgbox img,.tpaImg img,.serviceimgBox img,.admission-box img,.excellanceBox a{
+    width:100%!important;
+}
+.box3{
+    height:300px;
+    width:500px;
+}
+.box4:hover{
+    box-shadow: 1px 3px 13px -7px ;
+    border-bottom: 4px solid #4ab242;
+    
+}
+.box4{
+    box-shadow: 0px 10px 9px 0px #80808047;
+    padding:10px;
+    margin:10px;
+    height:280px;
+  
+}
+.box4>span{
+    padding:20px;
+}
+.videoBox>iframe{
+    border:5px solid #fff;
+}
+.box6{
+    margin:10px;
+    box-shadow: 0px 0px 1px 0px;
+    border-left:3px solid #4ab242;;
+}
+.accordion-button:focus{
+    border: none!important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #4ab242!important;
+    color:white!important;
+}
+nav{
+    position: sticky!important;
+    top: 0px!important;
+    background-color: #fff;
+}
+.card-img-top{
+    transition:1s;
+}
+.card-img-top:hover{
+    transform:scale(1.1);
+    transition:1s;
+}
+.depBox{
+    overflow: hidden;
+    height:570px;
+}
+.box7:hover .hoverBox{
+    opacity: 1;
+    transform: scale(1.0);
+    transition:0.5s;
+}
+
+.box7,.boxHelth{
+    box-shadow: 0px 10px 9px 0px #80808047;
+    overflow:hidden;
+}
+.boxHelth .card{
+    height:600px;
+}
+.hoverBox{
+    position: absolute;
+    height: 490px;
+    width: 100%; 
+    top: -81px;   
+    background: linear-gradient(7deg, #4ab242, #4fb4471f);
+    padding:200px 10px 0px 10px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition:0.5s;
+}
+.boxForm{
+    height:500px;
+    width:50%;
+}
+.footerCredit{
+    border-top:1px solid #4ab242;
+}
+.box-box,.drBox,.videobox,.bordBox ,.tbaBox1{
+    box-shadow: 2px 0px 34px 0px #80808091;
+}
+
+.drBox img{
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 80px;
+    border:4px solid #4ab242; 
+
+}
+.drop1{   
+    width: 176px;
+    box-shadow: 0px 8px 9px -1px #80808061;
+    background: white;
+    transform: translate(0px, 29px);
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+}
+.d-drop:hover .drop1{
+    transform: translate(0px, 10px);
+    transition: 0.5s;
+    opacity: 1;
+    visibility: visible;
+}
+.Bigdrop .nav-item,.drop1 li{
+    border-bottom:1px solid #4ab242;
+}
+.Bigdrop .nav-item i,.drop1 i{color:#4ab242;}
+.Bigdrop .nav-item:hover i{color:#fff;}
+.drop1 li:hover i{color: #fff;}
+.Bigdrop{
+    width:600px!important;
+}
+.serviceContent h4{
+    border-bottom: 2px solid #4ab242;
+    border-left:2px solid #4ab242;
+    padding:5px;
+}
+.modal-backdrop{
+    z-index: 0!important;
+}
+.newimg img{width:65%!important;}
+.photogallery{
+    height:200px;
+    overflow: hidden;
+}
+.width>img{width: 25px;margin-top: -5px;}
+.w-icon img{
+    width:5%;
+    position:fixed;
+    bottom: 5px;
+    right:5px;
+}
+.carousel-item img{width: 100% !important;}
+.appBtnD{
+	cursor: pointer;
+	color:black!important;
+}
